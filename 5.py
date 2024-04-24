@@ -12,7 +12,7 @@ class Employee:
     def get_paid(self) -> None:
         self.salary = 0
 
-    def __str__(self):
+    def __str__(self) -> None:
         return f'Имя: {self.name}, должность: {self.position}, зарплата: {self.salary}'
 
 class Manager(Employee):
