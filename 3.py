@@ -12,7 +12,10 @@ class Calculator:
     def difference(self) -> None:
         print(f'Вычитание: {self.a - self.b}')
     def division(self) -> None:
-        print(f'Деление: {self.a / self.b}')
+        if b == 0:
+            print('Деление: деление на 0 невозможно!')
+        else:
+            print(f'Деление: {self.a / self.b}')
     def multiplication(self) -> None:
         print(f'Умножение: {self.a * self.b}')
 
